@@ -11,7 +11,8 @@ export const getType=(a:any):string=>{
     //     "[object Object]",
     // ]
     if(Object.prototype.toString.call(a).includes("[object ")){
-        return Object.prototype.toString.call(a).slice(7, 13)
+        return Object.prototype.toString.call(a).slice(7, -1)
     }
+    console.log(123,Object.prototype.toString.call(a))
     return "unknow type"
 }
