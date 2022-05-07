@@ -9,7 +9,7 @@
   "author": "zhixin.wu <zhixin.wu@cyclone-robotics.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/helpUtils.ts",
+  "main": "lib/index.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
